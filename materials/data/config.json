@@ -1,0 +1,9 @@
+{
+  "ML": {
+    "epoch": 1000,
+    "tolerance": 0.7
+  },
+  "discord": {
+    "task_hour": "10:00 am"
+  }
+}

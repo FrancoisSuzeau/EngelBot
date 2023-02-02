@@ -1,0 +1,57 @@
+Ca va vous arrivez a suivre ?
+En fait ... 
+Je vais donc vous présenter une série de slide sur les réseaux de neuronnes.
+"Alors, les réseaux bayésien."
+Le formalisme des système d'information.
+"Ca c'est pas possible, vous ne pouvez pas."
+"Avec K-means, vous êtes sur d'avoir un cluster."
+"On peut faire une rotation, on va donc roter."
+"Partitionnement vertical, vous coupez verticalement et partitionnement horizontale vous coupez horizontalement."
+Vous avez un niveau Master maintenant cela demande une certaine exigence.
+"Ca c'est pas important, il ne faut pas s'en occuper maintenant."
+"Ici, c'est un seul individu qui est mesuré."
+Est ce qu'il y a une saisonnalité qui apparait ?
+Un produit est beaucoup plus vendu en été que en hiver.
+"Si vous voulez analyser ce type d'information, sans tenir compte de la saisonnalité, vous allez vous tromper."
+Vous devez séparer les données.
+Il peut y avoir des tendances périodique.
+On peut avoir des choses qui sont irrégulière.
+Ce sont des choses qui se postionne les uns à la suite des autres.
+On doit regarder la données dans sa globalité et essayé de regarder ce que l'on peut extraire derrière et manipuler.
+On peut retrouver des données qui sont active par le requettage dans le contenu.
+"Dans les séries temporelles, on peut aussi ce préocuper des anomalies."
+"Quand vous fabriquez des pièces dans les usines, vous pouvez avoir des anomalies."
+La découverte de motif.
+C'est ce qui va me permettre de savoir si je vais investir dans cette entreprise ou pas.
+"Avec la regression on est dans le cas continue, alors que l'on sera dans un cas discret avec la classification."
+La segmentation c'est quoi ?
+"Les challenge que l'on va trouver avec les séries temporelles, ce ne sera pas avec les petites séries mais avec la grande dimmensionnalité."
+Vous devez faire attention de quoi est ce qu'il parle.
+La problématique de similarité.
+On va appliquer la distance euclidienne sur la série temporelle.
+Vous confondez les séquences et les itemsets.
+Les CNN permettent d'extraire des features d'une image.
+Les séries temporelles sont des données temporelles.
+"Si je suis dans une zone limitée à 30km/h et que j'ai un rdv je vais rouler à 60km/h, prendre le pv à 200€ mais gagner 1000€ à mon rdv."
+"La segmentation, c'est le fait de segmenter."
+On parle de dimensionnalité en terme de longueur de série temporelle.
+Vous pouvez utiliser d'autre type d'approche.
+On transforme la série temporelle en séquence.
+Vous avez compris l'esprit qu'il y a derrière la DTW.
+On va chercher une segmentation de la série temporelle.
+De manière à ce que ...
+Faire de la prédiction c'est prédire les k prochaines valeurs.
+Ici c'est one shot.
+C'est ce qu'on a prédit qui va servir à prédire le reste.
+"Ici on va qu'il y a quelque chose d'anormal, il y a donc une certaine probabilité que ce soit une anomalie."
+Avec les motifs c'est d'essayer de voir les choses qui peuvent revenir.
+No Free Lunch Theorem.
+Je vais vous laisser une pause de 15min.
+En tant que Data Scientist.
+Typiquement.
+"Moi je suis un vendeur, les choses que je connais c'est coke, crakers, waters."
+Qui c'est qui veut passer au tableau ?
+Les gens qui achètent des couches achètent également de la bière.
+J'ai corrigé les examens de Big Data et je suis un peu déçu.
+Je vais lancer une pièce pour désigner votre délégué.
+Comment ça va aujourd'hui ?
