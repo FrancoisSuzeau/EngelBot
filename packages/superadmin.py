@@ -28,12 +28,6 @@ class SuperAdmin(commands.Cog):
         if not existing_channel:
             print(f'Creating a new channel: {channel_name}')
             await guild.create_text_channel(channel_name)
-            
-    @commands.command(name='all', help=": Show all sentences")
-    @commands.has_role('SuperAdmin')
-    async def show_me_what_you_got(self, ctx):
-        for i in self.sentences:
-            await ctx.send(self.sentences[i])
     
     @commands.command(name='tolerance', help=": Show his own tolerance")
     @commands.has_role('SuperAdmin')

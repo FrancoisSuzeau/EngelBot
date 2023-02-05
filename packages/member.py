@@ -36,28 +36,11 @@ class Member(commands.Cog):
         df.to_csv(self.DATA_PATH + "backup.csv", header=False, index=False)
         await ctx.send("Vous voyez ? Grâce aux réseaux de neurone, j'ai appris quelque chose.")
 
-    # @commands.command(name='chat', help=": Chat with the user")
-    # async def on_chat(self, ctx, *, content):
-    #     if len(content) <= 1:
-    #         await ctx.send("Vous m'avez appelé ?")
-    #     else:
-    #         await ctx.send(self.MyIn.chat(content))
-
-    # @commands.command(name='tolerance', help=": Show his own tolerance")
-    # async def show_tolerance(self, ctx):
-    #     await ctx.send("Ma tolerance est de : " + str(self.MyIn.tolerance))
-
-    # @commands.command(name='edt_tolerance', help=": Change his own tolerance")
-    # async def edit_tolerance(self, ctx, value:float):
-    #     old = self.MyIn.tolerance
-    #     self.MyIn.tolerance = float(value)
-    #     self.MyIn.write_config()
-    #     if old < self.MyIn.tolerance:
-    #         await ctx.send("Attention, j'attends maintenant un certain niveau de language")
-    #     elif old > self.MyIn.tolerance:
-    #         if self.MyIn.tolerance <= 0.5:
-    #             await ctx.send("Je n'ai plus besoin de réfléchir maintenant")
-    #         else:
-    #             await ctx.send("Je deviens un garagiste")
-    #     elif old == self.MyIn.tolerance:
-    #         await ctx.send("Je suis resté le même")
+    @commands.command(name='all', help=": Show all sentences")
+    async def show_me_what_you_got(self, ctx):
+        words = []
+        for i in self.sentences:
+            words.append(self.sentences[i])
+        words = random.sample(words, len(words))
+        for i in words:
+            await ctx.send(i)
